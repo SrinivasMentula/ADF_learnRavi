@@ -24,6 +24,7 @@
     },
     "Microsoft.DataFactory/factories/pipelines": {},
     "Microsoft.DataFactory/factories/integrationRuntimes": {
+        "*": "=",
         "properties": {
             "typeProperties": {
                 "ssisProperties": {
