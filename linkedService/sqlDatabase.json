@@ -1,0 +1,24 @@
+{
+	"name": "sqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlserveravilearner.database.windows.net",
+			"database": "ravilearn",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "SrinivasMentula",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "keyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlServerPassWord"
+			}
+		}
+	}
+}

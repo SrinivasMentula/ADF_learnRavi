@@ -1,0 +1,15 @@
+{
+	"name": "ADFlearnerSrinivasMentula",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "dd710f42-e51f-4b95-a544-cd0f2506b978",
+		"tenantId": "90f6bef4-22b6-451e-a1fe-a0a6883115cd",
+		"userAssignedIdentities": {
+			"/subscriptions/bd31ef03-4ebf-467e-a312-dbe2bdca5989/resourcegroups/rg-databricks-workspace/providers/Microsoft.ManagedIdentity/userAssignedIdentities/userAssignedMangedIdenty": {
+				"clientId": "1591f6f5-7ce7-4716-bff7-97d2c0be16dd",
+				"principalId": "cf5cc4c7-b023-40df-9f44-25701bf288b4"
+			}
+		}
+	}
+}
