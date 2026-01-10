@@ -65,6 +65,9 @@
 },
     "Microsoft.DataFactory/factories/linkedServices": {
         "*": {
+			"connectVia": {
+                "referenceName": "="
+            },
             "properties": {
                 "typeProperties": {
                     "accountName": "=",
