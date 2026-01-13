@@ -1,12 +1,16 @@
 {
 	"name": "sqlDatabase",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"parameters": {
+			"datbaseName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"server": "sqlserveravilearner.database.windows.net",
-			"database": "ravilearn",
+			"database": "@{linkedService().datbaseName}",
 			"encrypt": "mandatory",
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
@@ -20,5 +24,6 @@
 				"secretName": "sqlServerPassWord"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
