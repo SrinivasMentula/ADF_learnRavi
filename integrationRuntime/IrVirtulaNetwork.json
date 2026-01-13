@@ -1,0 +1,19 @@
+{
+	"name": "IrVirtulaNetwork",
+	"properties": {
+		"type": "Managed",
+		"description": "This is an azure with Virtual Neetwork",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "UK South",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 10,
+					"cleanup": false,
+					"customProperties": []
+				}
+			}
+		}
+	}
+}
