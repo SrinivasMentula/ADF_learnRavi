@@ -1,0 +1,7 @@
+{
+	"name": "AzureBlobStorage",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/bd31ef03-4ebf-467e-a312-dbe2bdca5989/resourceGroups/rg-databricks-workspace/providers/Microsoft.Storage/storageAccounts/savnetmentula",
+		"groupId": "blob"
+	}
+}
